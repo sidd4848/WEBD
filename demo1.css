@@ -1,0 +1,15 @@
+.overlay{
+	position:absolute; top:120px; left:30%; height:40; width:30%; background-color:#0095DD; display: inline;
+}
+#imagebulb{
+	position:absolute; top:120px; left:60%; height:40; width:5%;
+}
+ul li{
+	display:inline;
+}
+.overlay1{
+	position:absolute; top:170px; left:30%; height:40; width:30%; background-color:#0095DD; display: inline;
+}
+#imagefan{
+	position:absolute; top:170px; left:60%; height:40; width:5%;
+}
