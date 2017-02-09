@@ -1,15 +1,78 @@
-.overlay{
-	position:absolute; top:120px; left:30%; height:40; width:30%; background-color:#0095DD; display: inline;
-}
-#imagebulb{
-	position:absolute; top:120px; left:60%; height:40; width:5%;
+body{
+	background-color:#B6B8E3;
 }
 ul li{
-	display:inline;
+	display:inline; 
 }
-.overlay1{
-	position:absolute; top:170px; left:30%; height:40; width:30%; background-color:#0095DD; display: inline;
+.overlay{
+	position:absolute; height:40; width:15%; background-color:#0095DD; display: inline;
+	border: 2px solid black; color: white; font-family: cursive; text-align: center;
+	box-shadow: 4px 5px 0px 0px darkslategrey;
+}
+.overlay:active {
+	box-shadow: 2px 2px 0px 0px darkslategrey;
+	transform: translateY(4px);
+	}
+#o1{
+	top:120px;
+	left:30%;
+}
+#o2{
+	top:120px;
+	left:45%;
+	background-color:red;
+}
+#o3{
+	top:170px;
+    left:30%;	
+}
+#o4{
+	top:170px;
+    left:45%;	
+	background-color:red;
+}
+#o5{
+	top:220px;
+	left:30%;
+}
+#o6{
+	top:220px;
+	left:45%;
+	background-color:red;
+}
+#o7{
+	top:270px;
+    left:30%;	
+}
+#o8{
+	top:270px;
+    left:45%;	
+	background-color:red;
+}
+#o9{
+	top:320px;
+    left:30%;	
+}
+#o10{
+	top:320px;
+    left:45%;	
+	background-color:red;
+}
+#imagebulb{
+	position:absolute; top:120px; left:60%; height:40; width:5%; padding-left: 6px;
 }
 #imagefan{
-	position:absolute; top:170px; left:60%; height:40; width:5%;
+	position:absolute; top:170px; left:60%; height:40; width:5%; padding-left: 8px;
+}
+#imagebulb1{
+	position:absolute; top:220px; left:60%; height:40; width:5%; padding-left: 6px;
+}
+#imagebulb2{
+	position:absolute; top:270px; left:60%; height:40; width:5%; padding-left: 6px;
+}
+#imagefan1{
+	position:absolute; top:320px; left:60%; height:40; width:5%; padding-left: 8px;
+}
+.nav{
+	height: 20px; width: 100%; background-color:red; text-align:center; color:white;
 }
